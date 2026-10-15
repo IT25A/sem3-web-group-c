@@ -1,0 +1,92 @@
+Abgabe: 20.12.2026 - 23:59 Uhr
+	- Projekt: letzter Commit im Repository => GitHub: hwr-rahnl/e_rahnl@doz.hwr-berlin.de
+	- Wissenschaftlicher Text: Moodle
+
+Prüfung Webentwicklung:
+	- Thema: Auseinandersetzung mit einem Framework zur Entwicklung einer Single-Page-Application
+		- Wahl eines geeigneten Frameworks
+		- Umsetzung der selbstgewählten Idee in diesem Framework
+	- Basismerkmale - müssen
+		- Web-App (Single Page Application): mind. 6 Unterseiten, mind. 4 API-Interaktionen
+		- Framework muss HTML, CSS, JavaScript (JS) verwenden oder darin kompilieren
+		- Abgabe als Link zum Repository auf GitHub, GitLab oder Bitbucket
+		- Wissenschaftlicher Text (s. unten)
+	- Leistungsmerkmale - sollen (mind. 50%)
+		- Angemessene Größe: 12 Unterseiten bei 3 Personen
+		- Angemessene Interaktivität: 9 API-Interaktionen bei 3 Personen
+		- Einhaltung Standards in HTML, CSS, JS (u.a. kein Zweckentfremdung Funktionen, keine Deprecations; universelle Browserkompatibilität)
+		- Mind. 1 Formular mit: 3 Feldern, Submit-Logik
+		- CRUD-Interaktionen mit IndexedDB, Local- oder SessionStorage
+		- Dokumentations-Kommentare an mind. jeder public Funktion
+		- Leistungsmerkmale wissenschaftlicher Text (2; s. unten)
+	- Begeisterungsmerkmale - können
+		- Modernes + Ansprechendes Design mit Animationen
+		- Responsive Design (Bildschirmgrößen, Dark-/Light-Mode)
+		- Auslagerung aufwendiger Berechnungen in WebAssembly
+		- Automatisierte Test (min. 30% Line-Coverage)
+		- Dokumentation (Architektur, Code-Style, etc.) als Markdown oder AsciiDoc im Repository
+		- Begeisterungsmerkmale wissenschaftlicher Text (1; s. unten)
+	- Wissenschaftlicher Text:
+		- Basismerkmale
+			- 3 Personen: 1200 Wörter (+/- 10%; nur Haupttext)
+			- Muss: Quellverweise
+			- Optional: Einleitung, Fazit
+			- Kein Abstract
+			- Beschreibung des Projekts und des gewählten Frameworks
+		- Leistungsmerkmale - sollen
+			- Beschreibung Kernaspekte des gewählten Framewörkt + Begründung für die Wahl
+			- Beschreibung Anwendung: Welches Problem löst sie? Warum als Web-App?
+		- Begeisterungsmerkmale - können
+			- Ausführliche abschließende Bewertung Framework
+				- Gute oder schlechte Wahl für gewählten Anwendungsfall
+				- Herausstechende Hilfestellung oder Hindernisse
+				- Vergleich mit anderen bekannten Technologien/ Frameworks
+				- Ausblick auf weitere Featureideen
+
+Prüfung Api-Entwicklung:
+	- Thema: Auseinandersetzung mit einem Framework zur Entwicklung einer Backend-Anwendung
+		- Wahl eines geeigneten Frameworks + Schnittstellentechnologie (REST (empfohlen), GraphQL)
+		- Umsetzung der selbstgewählten Idee in diesem Framework
+	- Basismerkmale - müssen
+		- Backend-Anwendung mit HTTP basierter Schnittstellentechnologie (z.B. REST, GraphQL): mind. 4 Endpoints
+		- Abgabe als Link zum Repository auf GitHub, GitLab oder Bitbucket
+		- Basismerkmale wissenschaftlicher Text (s. unten)
+	- Leistungsmerkmale - sollen (mind. 50%)
+		- Angemessene Größe: 9 Endpoints bei 3 Personen 
+		- Mind. Level 2 des Richardson-Maturity-Model in REST oder vergleichbares in anderen Technologien
+		- Vollständige CRUD-Funktionalität
+		- Pagination und komplexer Filter (mind. 3 Eigenchaften) für einen Datensatz
+		- (Basic-)Authentifizierung in mind. einem Endpoint mit Registrierung
+		- Dokumentations-Kommentare an mind. jeder public Funktion
+		- Leistungsmerkmale wissenschaftlicher Text (2; s. unten)
+	- Begeisterungsmerkmale - können
+		- Level 3 des Richardson-Maturity-Model in REST oder vergleichbares in anderen Technologien
+		- OpenID-Connect/ OAuth2 Authentifizierung
+		- Persistierung aller Ressourcen in einer Datenbank
+		- Automatisierte Test (min. 30% Line-Coverage)
+		- Dokumentation (Architektur, Code-Style, etc.) als Markdown oder AsciiDoc im Repository
+		- Begeisterungsmerkmale wissenschaftlicher Text (1; s. unten)
+	- Wissenschaftlicher Text:
+		- Basismerkmale - müssen
+			- 3 Personen: 1200 Wörter (+/- 10%; nur Haupttext)
+			- Muss: Quellverweise
+			- Optional: Einleitung, Fazit
+			- Kein Abstract
+			- Beschreibung des Projekts und der Technologie
+		- Leistungsmerkmale - sollen
+			- Beschreibung Kernaspekte der gewählten API-Technologie + Begründung für die Wahl
+			- Beschreibung Anwendung: Welches Problem löst sie? Warum als Serveranwendung mit WEB-API geeignet?
+		- Begeisterungsmerkmale - können
+			-Ausführliche abschließende Bewertung Schnittstellentechnologie
+				- Gute oder schlechte Wahl für gewählten Anwendungsfall
+				- Herausstechende Hilfestellung oder Hindernisse
+				- Abweichende Architekturentscheidungen im Vergleich zu anderen in Betracht gezogenen Technologien
+				- Ausblick auf weitere Featureideen
+
+Wenn Kombi. aus Webentwicklung und API-Entwicklung:
+	- zwei Repositories oder ein Mono-Repo
+	- zusätzliches Basismerkmal
+		- Website muss **alle** Endpoints der API verwenden
+	- Wisschenschaftlicher Text
+		- Nur **ein** Dokument
+		- Reduzierter Umfang: 1800 Wörter bei 3 Personen (+/- 10%; nur Haupttext)
