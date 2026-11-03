@@ -1,7 +1,8 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>Jobs</h1>
+    <p>Wie Arbeitsagentur, nur schneller und weniger nervig.</p>
   </div>
 </template>
 

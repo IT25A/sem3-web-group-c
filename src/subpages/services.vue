@@ -1,7 +1,8 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>Services</h1>
+    <p>Alles, was wir für unsere Kunden tun. Natürlich nur gegen passende Bezahlung ;)</p>
   </div>
 </template>
 

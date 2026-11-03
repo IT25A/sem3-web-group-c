@@ -2,6 +2,7 @@
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
     <h1>Neue Seite</h1>
+    <p>Hier gehts zum VIP-Bereich</p>
   </div>
 </template>
 

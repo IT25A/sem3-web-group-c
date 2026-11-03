@@ -2,6 +2,7 @@
 
 
 /*Vorgefertige für Orientiertierung, später löschen*/
+/*
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,78 @@ a,
 
     background-color: rgb(236, 54, 145);
   }
+}*/
+
+/*ab hier eigene*/
+/* Grundlegendes Reset & Schriftart */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: pink;
+}
+
+/* App-Container nimmt die volle Mindesthöhe ein */
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Haupt-Container: Ordnet Navbar oben und Inhalt darunter an */
+.mainDesign {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Horizontale Navigationbar */
+.navbar {
+  width: 100%;
+  background-color: rgb(236, 54, 145);
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Menüeinträge horizontal nebeneinander anordnen */
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  display: block;
+  padding: 8px 14px;
+  color: #eee5ff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar li a:hover {
+  background-color: pink;
+  color: #ffffff;
+}
+
+/* Inhaltsbereich füllt den verbleibenden vertikalen Raum */
+main,
+.content-area {
+  flex: 1;
+  padding: 2rem;
 }

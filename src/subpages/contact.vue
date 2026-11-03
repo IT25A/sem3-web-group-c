@@ -1,7 +1,8 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>Kontakt</h1>
+    <p>Nah, ob wir unsere Kontaktdaten wirklich teilen wollen???</p>
   </div>
 </template>
 

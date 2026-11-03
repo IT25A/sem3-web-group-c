@@ -2,17 +2,25 @@
 //Bsp. für Import einer Komponente
 //import HelloWorld from './components/HelloWorld.vue'
 import '@/assets/main.css'
+import Navbar from './components/naviBar.vue';
+
 </script>
 
 <template>
+    <div class="navbar">
+      <!-- Navigation erscheint auf jeder Seite oben -->
+      <Navbar />
+    </div>
+
   <header>
-   <h1>Hey!</h1>
-   <h2>Ich bin die nackige Version der ByeByeLine-Website °~°</h2>
+    <!-- Hier werden die Seiten je nach Route geladen -->
+   <router-view />
   </header>
 
   <main>
-    
+
   </main>
+  
 </template>
 
 <style scoped>

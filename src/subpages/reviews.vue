@@ -1,7 +1,10 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>Reviews</h1>
+    <p>Was andere über uns denken.
+      P.S. negatives Feedback wird entfernt... 
+    </p>
   </div>
 </template>
 

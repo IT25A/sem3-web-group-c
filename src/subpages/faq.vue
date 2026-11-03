@@ -1,7 +1,16 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>FAQ</h1>
+    <p>
+      Der, die, das
+      <br>
+      Wer? Wie? Was?
+      <br>
+      Wieso? Weshalb? Warum?
+      <br>
+      Wer nicht fragt, bleibt dumm
+    </p>
   </div>
 </template>
 

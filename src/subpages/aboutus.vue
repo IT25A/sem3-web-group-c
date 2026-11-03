@@ -1,7 +1,8 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
+    <h1>Über uns</h1>
+    <p>Hier entsteht eine neue Seite mit (mehr oder weniger) wichtigen Informationen über uns. Wie aufregend! °O°</p>
   </div>
 </template>
 
