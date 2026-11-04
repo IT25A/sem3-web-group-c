@@ -1,17 +1,13 @@
 <template>
-  <div class="page-container">
-    <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Neue Seite</h1>
-  </div>
+  <UButton>Liner</UButton>
 </template>
 
 <script setup lang="ts">
-  import '@/assets/main.css'
-  import { ref, onMounted } from 'vue'
+import '@/assets/main.css'
 
-  // Reaktive Variablen oder Logik hier einfügen
+// Reaktive Variablen oder Logik hier einfügen
 </script>
 
 <style scoped>
-  /*für lokales css */
+/*für lokales css */
 </style>
