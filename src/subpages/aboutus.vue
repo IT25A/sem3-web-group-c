@@ -1,8 +1,8 @@
 <template>
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Über uns</h1>
-    <p>Hier entsteht eine neue Seite mit (mehr oder weniger) wichtigen Informationen über uns. Wie aufregend! °O°</p>
+    <h1>Über BYEBYELINE</h1>
+    <p>hallo</p>
   </div>
 </template>
 
