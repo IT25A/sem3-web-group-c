@@ -3,26 +3,26 @@
     <div clas="aboutus-header">
       <h1>Über BYEBYELINE</h1>
       <p>Warten war gestern!</p>
-      <p>Während andere noch warten, bist du schon mittendrin. Wir bringen Menschen zusammen und machen den Weg zu deinem nächsten Event einfacher.</p>
+      <p>Warum wertvolle Zeit in Warteschlangen verbringen, wenn man sie auch anders nutzen kann? BYEBYELINE übernimmt das Warten für dich, damit du dich auf das konzentrieren kannst, was wirklich zählt: dein nächstes Event.</p>
     </div>
     <div class="aboutus-content">
       <h2>Wer wir sind</h2>
-      <p>Wir sind eine Plattform, die das Anstehen für Konzerte und Events einfacher macht. Unser Ziel ist es, Kunden mit zuverlässigen und verifizierten Jobbern zu verbinden, die das Warten für sie übernehmen. So können unsere Kunden ihre Zeit sinnvoll nutzen, während unsere Jobber die Möglichkeit haben, mit einem flexiblen Service Geld zu verdienen.</p>
+      <p>BYEBYELINE ist ein Unternehmen, das einen Warteservice für Konzerte und Events anbietet. Wir bringen Menschen zusammen, die ihre Zeit sinnvoll nutzen möchten, und ein Team von Jobbern, das sich um das Anstehen kümmert. Unser Ziel ist es, unseren Kunden einen zuverlässigen und unkomplizierten Service zu bieten.</p>
     </div>
     <div class="aboutus-mission">
       <h2>Unsere Mission</h2>
-      <p>Unsere Mission ist es, das Anstehen einfacher und stressfreier zu gestalten. Wir möchten eine vertrauenswürdige Plattform schaffen, auf der Kunden und Jobber unkompliziert zusammenfinden. Dabei stehen Zuverlässigkeit, Transparenz und eine einfache Nutzung im Mittelpunkt.</p>
+      <p>Wir glauben, dass jeder seine Freizeit so verbringen sollte, wie er möchte. Deshalb übernehmen wir das Anstehen und schaffen gleichzeitig flexible Arbeitsmöglichkeiten für Menschen, die Teil unseres Teams werden möchten.</p>
     </div>
     <div class="aboutus-why">
       <h2>Warum wir?</h2>
-      <p>Verifizierte Jobber: Zuverlässige Personen mit geprüften Profilen.</p>
-      <p>Bewertungen: Transparente Kundenbewertungen schaffen Vertrauen.</p>
-      <p>Sichere Bezahlung: Die Zahlung wird sicher abgewickelt und nach erfolgreichem Abschluss des Auftrags an den Jobber freigegeben.</p>
-      <p>Flexible Buchung: Eine unkomplizierte Buchung mit einer Stornierungsmöglichkeit innerhalb von 48 Stunden.</p>
+      <p>Ein zuverlässiges Team: Unsere Jobber werden sorgfältig ausgewählt und verifiziert.</p>
+      <p>Transparenz: Bewertungen helfen unseren Kunden, sich ein Bild von unserem Service zu machen.</p>
+      <p>Sichere Bezahlung: Die Zahlungsabwicklung erfolgt sicher und transparent.</p>
+      <p>Flexibilität: Wir bieten eine unkomplizierte Buchung und eine Stornierungsmöglichkeit innerhalb von 48 Stunden.</p>
     </div>
     <div>
-      <h2>Werde Teil unser Community</h2>
-      <p>Du möchtest deine Zeit sparen oder selbst als Jobber Geld verdienen? Bei uns findest du die passende Möglichkeit.</p>
+      <h2>Werde Teil unserer Community</h2>
+      <p>Du möchtest Teil unseres Teams werden? Wir freuen uns auf motivierte Menschen, die unseren Kunden das Warten abnehmen möchten. Oder möchtest du einfach mehr Zeit für dein nächstes Event haben? Dann buche unseren Service!</p>
     </div>
   </div>
 </template>
