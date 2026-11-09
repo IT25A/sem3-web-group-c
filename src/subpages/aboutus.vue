@@ -2,7 +2,7 @@
   <div class="page-container">
     <!-- Hier kommt der Inhalt der Seite hin -->
     <h1>Über BYEBYELINE</h1>
-    <p>hallo</p>
+    <p>Warten war gestern!</p>
   </div>
 </template>
 
