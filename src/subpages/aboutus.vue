@@ -22,7 +22,7 @@
     </div>
     <div>
       <h2>Werde Teil unserer Community</h2>
-      <p>Du möchtest Teil unseres Teams werden? Wir freuen uns auf motivierte Menschen, die unseren Kunden das Warten abnehmen möchten. Oder möchtest du einfach mehr Zeit für dein nächstes Event haben? Dann buche unseren Service!</p>
+      <p>Du möchtest Teil unseres Teams werden? Wir freuen uns auf motivierte Menschen, die unseren Kunden das Warten abnehmen möchten. Oder möchtest du einfach mehr Zeit für dein nächstes Event haben? Dann buche unseren Service!  </p>
     </div>
   </div>
 </template>
@@ -35,5 +35,7 @@
 </script>
 
 <style scoped>
-  /*für lokales css */
+  h1 {
+  color: #8c52ff;
+  }
 </style>
