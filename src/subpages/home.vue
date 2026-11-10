@@ -28,7 +28,7 @@
       </div>
       <div class="right">
         <h2 class="TheWeeknd">The Weeknd</h2>
-        <h3>Countdown bis Einlass</h3>
+        <h3 class="countdown-title">Countdown bis Einlass</h3>
         <countdown />
         <buttonBookLiner>
           <span>SERVICE BUCHEN</span>
@@ -128,7 +128,7 @@ import countdown from "@/components/countdown.vue";
   border: 3px solid #8c52ff;
   border-radius: 20px;
   padding: 24px; /* Abstand innerhalb der Box */
-  background-color: #f5f0ff;
+  background-color: #19181a;
 }
 
 .btnhook {
@@ -138,7 +138,7 @@ import countdown from "@/components/countdown.vue";
   margin-top: 20px; /* Etwas Abstand nach oben */
 }
 .cta-button {
-  background-color: #faf4f4;
+  background-color: #f5f0ff;
   font-weight: bold;
   color: black;
   padding: 12px 24px;
@@ -146,6 +146,12 @@ import countdown from "@/components/countdown.vue";
   border-radius: 20px;
   font-size: 16px;
   margin-bottom: 16px;
+}
+.countdown-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0; /* Entfernt Standard-Abstand */
 }
 h2 {
   font-weight: bold;
@@ -170,7 +176,7 @@ span {
 .TheWeeknd {
   font-size: 50px;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Responsive Design: Auf kleinen Bildschirmen (Handys) alles untereinander anzeigen */
