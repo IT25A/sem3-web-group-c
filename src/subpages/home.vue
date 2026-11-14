@@ -28,7 +28,7 @@
       </div>
       <div class="right">
         <h2 class="TheWeeknd">The Weeknd</h2>
-        <h3>Countdown bis Einlass</h3>
+        <h3 class="countdown-title">Countdown bis Einlass</h3>
         <countdown />
         <buttonBookLiner>
           <span>SERVICE BUCHEN</span>
@@ -37,12 +37,28 @@
     </div>
   </section>
   <section class="howitworks-section">
+    <!-- Gleicher Container wie oben -->
     <div class="page-container">
-      <div class="how-it-works-content">
+      <!-- Linke Spalte (Text) -->
+      <div class="how-it-works-text">
         <p class="subtitle">Wie es funktioniert</p>
-        <h2 class="section-headline">DREI SCHRITTE NULL WARTEZEITEN</h2>
-        Vom Event bis zur Platzübergabe: transparent, sicher und jederzeit
-        nachvollziehbar.
+        <h2 class="section-headline">
+          DREI SCHRITTE <br />
+          <span class="highlight">NULL WARTEZEITEN</span>
+        </h2>
+        <p class="description">
+          Vom Event bis zur Platzübergabe: transparent, sicher und jederzeit
+          nachvollziehbar.
+        </p>
+      </div>
+
+      <!-- Rechte Spalte (Bild) -->
+      <div class="how-it-works-image">
+        <img
+          src="@/assets/concert.png"
+          alt="Ein belebtes Konzert"
+          class="concert-image"
+        />
       </div>
     </div>
   </section>
@@ -112,7 +128,7 @@ import countdown from "@/components/countdown.vue";
   border: 3px solid #8c52ff;
   border-radius: 20px;
   padding: 24px; /* Abstand innerhalb der Box */
-  background-color: #f5f0ff;
+  background-color: #19181a;
 }
 
 .btnhook {
@@ -122,7 +138,7 @@ import countdown from "@/components/countdown.vue";
   margin-top: 20px; /* Etwas Abstand nach oben */
 }
 .cta-button {
-  background-color: #faf4f4;
+  background-color: #f5f0ff;
   font-weight: bold;
   color: black;
   padding: 12px 24px;
@@ -130,6 +146,12 @@ import countdown from "@/components/countdown.vue";
   border-radius: 20px;
   font-size: 16px;
   margin-bottom: 16px;
+}
+.countdown-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0; /* Entfernt Standard-Abstand */
 }
 h2 {
   font-weight: bold;
@@ -154,7 +176,7 @@ span {
 .TheWeeknd {
   font-size: 50px;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Responsive Design: Auf kleinen Bildschirmen (Handys) alles untereinander anzeigen */
@@ -181,31 +203,73 @@ span {
 .gap {
   margin-left: 50px; /* Abstand zwischen den beiden Punkten */
 }
+/* --- NEUER BEREICH: WIE ES FUNKTIONIERT --- */
+
+/* Exakt gleiches Grundgerüst wie .hero-section */
 .howitworks-section {
-  padding: 40px 75px; /* Etwas Abstand nach oben/unten und zu den Rändern */
-  width: 100%;
+  display: flex;
   justify-content: center;
-  margin-left: 40px;
-}
-/* Container für den Text, damit er die volle Breite des page-containers nutzt */
-.how-it-works-content {
   width: 100%;
-  text-align: left; /* Hält den Text auf der linken Seite */
+  padding: 40px 20px; /* Gleicher Abstand wie oben! Kein margin-left. */
 }
 
-/* Das kleine "Wie es funktioniert" */
+/* Linke Spalte in der zweiten Section */
+.how-it-works-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex: 1; /* Nimmt 50% des Platzes ein */
+  max-width: 500px; /* Gleiche maximale Textbreite wie in der Hero-Section */
+  gap: 16px;
+}
+
+/* Rechte Spalte in der zweiten Section */
+.how-it-works-image {
+  display: flex;
+  justify-content: flex-end; /* Schiebt das Bild an den rechten Rand */
+  align-items: center;
+  flex: 1; /* Nimmt die anderen 50% ein */
+  margin-bottom: 0; /* Kein zusätzlicher Abstand nach unten */
+}
+
 .subtitle {
   font-size: 16px;
-  color: #4a5568; /* Leichtes Grau, damit die große Überschrift mehr knallt */
-  margin-bottom: 8px;
-}
-
-/* Die große Überschrift */
-.section-headline {
-  font-size: 36px;
-  font-weight: 800; /* Sehr fett */
+  font-weight: bold;
   color: #000000;
   margin: 0;
-  font-family: serif; /* Setzt hier deine Serifenschrift ein, z.B. 'Playfair Display' */
+}
+
+.section-headline {
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+  margin-top: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.description {
+  margin: 0;
+  padding: 0;
+}
+
+.concert-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px; /* Passt zum restlichen Design */
+  object-fit: cover;
+  box-shadow: 6px 6px 0px #000000; /* Neo-Brutalismus Schatten */
+}
+
+/* Auf dem Handy untereinander anzeigen (ergänzt deinen @media Block) */
+@media (max-width: 800px) {
+  .how-it-works-text,
+  .how-it-works-image {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
 }
 </style>
