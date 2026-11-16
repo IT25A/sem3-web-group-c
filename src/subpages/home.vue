@@ -59,7 +59,7 @@
           <div class="step">
             <div class="step-number">2</div>
             <div class="step-text">
-              <h3>Jobber buchen und bezahlen</h3>
+              <h3>Liner buchen und bezahlen</h3>
               <p>
                 Kreditkarte oder Stripe. Das Geld hält der Zahlungsanbieter.
               </p>
@@ -68,8 +68,8 @@
           <div class="step">
             <div class="step-number">3</div>
             <div class="step-text">
-              <h3>Job erledigt, Geld freigegeben</h3>
-              <p>Erst dann bekommt der Jobber sein Geld.</p>
+              <h3>Liner erledigt, Geld freigegeben</h3>
+              <p>Erst dann bekommt der Liner sein Geld.</p>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@
             <h3 class="artist">Beispiel-Band</h3>
             <p class="date">19. Nov.</p>
           </div>
-          <button class="book-btn">Jobber buchen</button>
+          <button class="book-btn">Liner buchen</button>
           <div class="watermark">01</div>
         </div>
 
@@ -120,7 +120,7 @@
             <h3 class="artist">DJ Beispiel</h3>
             <p class="date">28. Nov.</p>
           </div>
-          <button class="book-btn">Jobber buchen</button>
+          <button class="book-btn">Liner buchen</button>
           <div class="watermark">02</div>
         </div>
 
@@ -132,7 +132,7 @@
             <h3 class="artist">Sängerin Beispiel</h3>
             <p class="date">06. Dez.</p>
           </div>
-          <button class="book-btn">Jobber buchen</button>
+          <button class="book-btn">Liner buchen</button>
           <div class="watermark">03</div>
         </div>
       </div>
