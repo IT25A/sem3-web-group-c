@@ -19,8 +19,8 @@ onMounted(() => {
     simplyCountdown(countdownDiv.value, {
       year: 2026, // Dein Ziel-Jahr
       month: 12, // Dein Ziel-Monat (z.B. August)
-      day: 15, // Dein Ziel-Tag
-      hours: 19, // Ziel-Uhrzeit (optional)
+      day: 20, // Dein Ziel-Tag
+      hours: 24, // Ziel-Uhrzeit (optional)
 
       // Deutsche Wörter für den Countdown
       words: {
