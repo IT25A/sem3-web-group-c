@@ -1,8 +1,17 @@
 <template>
   <div class="page-container">
-    <!-- Hier kommt der Inhalt der Seite hin -->
-    <h1>Services</h1>
-    <p>Alles, was wir für unsere Kunden tun. Natürlich nur gegen passende Bezahlung ;)</p>
+    <div class="services-header">
+      <h1>Unsere Services</h1>
+      <p class="slogan">Wir stehen an - du genießt den Moment!</p>
+      <p class="header-content">
+        Egal ob ausverkauftes Konzert, exklusiver Produkt-Drop oder Behördengang: 
+        BYEBYELINE bietet dir flexible Wartelösungen, damit du keine kostbare Zeit mehr in der Schlange verlierst.
+      </p>
+    </div>  
+  </div>
+  <div class="services-list">
+    <h1>Was wir für dich übernehmen</h1>
+    <p class=""
   </div>
 </template>
 
