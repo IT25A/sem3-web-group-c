@@ -11,6 +11,11 @@
   </div>
   <div class="services-list">
     <h1>Was wir für dich übernehmen</h1>
+    <div class="services-grid">
+      <div class="services-card">
+        
+      </div>
+    </div>
     <p class=""
   </div>
 </template>
