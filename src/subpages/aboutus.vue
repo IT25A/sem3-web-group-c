@@ -50,139 +50,191 @@
 
 <style scoped>
 .page-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 40px 40px;
+  background-color: #ffffff;
+  color: #000000;
+  min-height: 100vh;
+  padding: 4rem 1.5rem 6rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
 }
 
+.aboutus-header,
+.aboutus-content,
+.aboutus-mission,
+.aboutus-why,
+.aboutus-community {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* 1. HEADER */
 .aboutus-header {
   text-align: center;
-  padding: 60px 40px;
-  background-color: #f5f0ff;
-  border-radius: 20px;
+  padding-top: 1.5rem;
 }
 
 .aboutus-header h1 {
-  font-size: 42px;
+  display: inline-block;
+  background-color: #e3ff54;
+  color: #000000;
+  font-size: 0.85rem;
   font-weight: 800;
-  color: #17151d;
-  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  margin: 0 0 1.25rem;
 }
 
 .aboutus-header .slogan {
-  font-size: 24px;
-  font-weight: 700;
-  color: #8c52ff;
-  margin-bottom: 20px;
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: #000000;
+  margin: 0 auto 1.25rem;
+  max-width: 18ch;
 }
 
 .aboutus-header .header-content {
-  max-width: 900px;
+  max-width: 65ch;
   margin: 0 auto;
-  font-size: 17px;
-  line-height: 1.7;
-  color: #6b6873;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: #222222;
 }
 
+/* 2. WER WIR SIND (Estilo tarjeta con borde lateral morado como services-info) */
 .aboutus-content {
-  margin-top: 30px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-left: 6px solid #5f36b0;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 6px 6px 0px #000000;
 }
 
 .aboutus-content h2 {
-  font-size: 32px;
+  font-size: 1.75rem;
   font-weight: 800;
-  color: #17151d;
-  margin-bottom: 20px;
+  color: #000000;
+  margin: 0 0 1rem;
 }
 
 .aboutus-content p {
-  font-size: 17px;
-  text-align:justify;
-  line-height: 1.8;
-  color: #6b6873;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #222222;
+  max-width: 75ch;
+  margin: 0;
 }
 
+/* 3. UNSERE MISSION (Bloque destacado con acento lima) */
 .aboutus-mission {
-  background-color: #f5f0ff;
-  padding: 50px 40px;
-  margin-top: 30px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-left: 6px solid #e3ff54;
   border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 6px 6px 0px #5f36b0;
 }
 
 .aboutus-mission h2 {
-  font-size: 32px;
+  font-size: 1.75rem;
   font-weight: 800;
-  color: #17151d;
-  margin-bottom: 20px;
+  color: #000000;
+  margin: 0 0 1rem;
 }
 
 .aboutus-mission p {
-  font-size: 17px;
-  line-height: 1.8;
-  color: #6b6873;
-  max-width: 900px;
-}
-.aboutus-why {
-  margin-top: 60px;
-  padding: 30px 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #222222;
+  max-width: 75ch;
+  margin: 0;
 }
 
+/* 4. WARUM WIR? (Grid de tarjetas con sombra morada y hover lima) */
 .aboutus-why h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 800;
-  color: #17151d;
-  margin-bottom: 30px;
+  color: #000000;
+  margin: 0 0 1.75rem;
+  text-align: center;
 }
 
 .why-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 1.5rem;
 }
 
 .why-item {
-  padding: 25px;
-  background-color: #faf8ff;
-  border-radius: 15px;
-  border: 1px solid #e8e1f2;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 5px 5px 0px #5f36b0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.why-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 7px 7px 0px #e3ff54;
 }
 
 .why-item h3 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #8c52ff;
-  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #000000;
+  margin: 0 0 0.65rem;
 }
 
 .why-item p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #6b6873;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #333333;
+  margin: 0;
 }
 
+/* 5. COMMUNITY (Bloque morado igual al CTA de book-service) */
 .aboutus-community {
-  margin-top: 60px;
-  margin-bottom: 30px;
-  padding: 50px 40px;
+  background-color: #5f36b0;
+  color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 24px;
+  padding: 3.25rem 2rem;
   text-align: center;
-  background-color: #f5f0ff;
-  border-radius: 20px;
+  box-shadow: 8px 8px 0px #000000;
 }
 
 .aboutus-community h2 {
-  font-size: 32px;
+  font-size: clamp(1.75rem, 3.5vw, 2.4rem);
   font-weight: 800;
-  color: #17151d;
-  margin-bottom: 20px;
+  color: #ffffff;
+  margin: 0 0 1rem;
 }
 
 .aboutus-community p {
-  max-width: 1000px;
+  max-width: 65ch;
   margin: 0 auto;
-  font-size: 17px;
-  line-height: 1.8;
-  color: #6b6873;
+  font-size: 1.1rem;
+  line-height: 1.65;
+  color: #ffffff;
 }
 
+/* RESPONSIVE */
+@media (max-width: 860px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
 
+  .aboutus-content,
+  .aboutus-mission,
+  .aboutus-community {
+    padding: 2rem 1.5rem;
+  }
+}
 </style>
